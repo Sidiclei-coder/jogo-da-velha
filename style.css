@@ -14,6 +14,7 @@ body {
     font-size: 68px;
     margin: 5px;
     cursor: pointer;
+    color: #eee;
 }
 
 /* usando a mesma linha de comando para n classes com a mesma propriedade*/
