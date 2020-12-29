@@ -110,3 +110,18 @@ function mudaCorQuadrado(quadrado1, quadrado2, quadrado3) {
 
     return eigual;
 }
+
+function reiniciar()
+{
+    vencedor = null;
+    vencedorSelecionado.innerHTML = '';
+
+    for (var i = 1; i <= 9; i++) {
+        var quadrado = document.getElementById(i);
+        quadrado.style.background = '#eee';
+        quadrado.style.color = '#eee';
+        quadrado.innerHTML = '-';
+    }
+
+    mudarJogador('X');
+}
